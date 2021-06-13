@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!-- Here is a link to the code the documents this code is based on
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+This will help you get started with your code!
+-->
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+        <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <title>Module 4 Lab</title>
+    </head>
+    <body>
+        <!--
+I store all of the page information in a container,
+Many websites will use what is called CSS grid layouts, where you will have a header, body, footer and both sides used for ads or other information
+-->
+        <div class="container-xl">
+            <!-- Header-->
+            <div class="header p-2">
+                <div class="text-center">
+                    <img src="assets/dog-black.png" width="180" />
+                </div>
+            </div>
+
+            <!-- Welcome To-->
+            <div class="about p-3">
+                <h1 class="">Welcome to Love Animal!</h1>
+                <div class="text-center">
+                    <p class="p-5 my-3" style="font-size: 25px;">
+                        We’re your pet’s family doctor. From wellness exams and lab work-ups, to dental cleanings, x-rays and surgery, the team at Love Animal Bells Corners is your committed partner in ensuring the lifetime health and
+                        happiness of the pets you love. What could be more important?
+                    </p>
+                </div>
+            </div>
+
+            <!-- Services-->
+            <div class="service p-1">
+                <h3 class="">Our Services</h3>
+                <div class="text-center">
+                    <p class="p-5 my-3" style="font-size: 20px;">
+                        A healthy pet is a happy pet. That’s why our team of trained professionals offer the highest quality care for your pet. We know your pets inside and out, which means we know when things are good and when we need to
+                        pay more attention. Our hospital is here for you. Click below to learn about the services we have available for your pet.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service2 p-1">
+                <!-- First Row of Services-->
+                <div class="service2 row justify-content-around m-1">
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Dentistry</h4>
+                            <p class="card-text">
+                                Dental disease can cause serious problems for your pet, ranging from gum inflammation and tooth loss to infection and even organ damage. Up to 80% of dogs and 70% of cats that don't receive proper dental care
+                                will develop signs of dental disease by the age of three. Dental disease can be easily prevented by following your veterinarian's advice regarding dental examinations, home care, and dental cleanings.
+                            </p>
+                            <h5>Price: $20+</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Nutrition</h4>
+                            <p class="card-text">
+                                Our Hospital is happy to offer a variety of Nutrition Services for your pet. Obesity is the number one nutritional problem facing pets today and can lead to severe health problems if not addressed. If your
+                                pet is overweight or obese, contact us today for a full evaluation.
+                            </p>
+                            <h5>Price: $40+</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Row of Services-->
+                <div class="row justify-content-around m-1">
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Primary Care</h4>
+                            <p class="card-text">
+                                Primary care services performed at our hospitals are the basic services every pet needs. These services include spays and neuters, health exams, laboratory and pharmacy services, and dental care. Please click
+                                on any of the subheadings listed below to learn more about all of the primary care services we offer your pets.
+                            </p>
+                            <h5>Price: $50+</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Diagnostics</h4>
+                            <p class="card-text">
+                                When we need to figure out what’s wrong with your pet, we routinely use x-rays to help identify the cause of the problem, rule out possible problems, or provide a list of possible causes. We may also use
+                                x-rays during a wellness exam to diagnose potential problems before they become serious.
+                            </p>
+                            <h5>Price: $50+</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Row of Services-->
+                <div class="row justify-content-around m-1">
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Pharmacy</h4>
+                            <p class="card-text">
+                                For your convenience, our hospital has an in-house pharmacy, enabling you to pick up your pet's medications at the time of your visit. If you have any questions about the medications we carry, please call
+                                ahead and we may be able to pre-order it for you.
+                            </p>
+                            <h5>Price: $10+</h5>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <h4>Surgery</h4>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Our hospital offers many General Surgery Services that include a variety of common and elective procedures performed under general anesthesia. Examples of common surgeries include: spay (ovariohysterectomy),
+                                neuter (castration), lump removal and biopsy, laceration repair, abscess and wound repair, exploratory surgery, removal of gastrointestinal foreign bodies, enucleation (eye removal), cystotomy (removal of
+                                bladder stones), and skin biopsy.
+                            </p>
+                        </div>
+                        <h5>Price: $90+</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Appointment -->
+            <div class="appoint p-4">
+                <h3 class="" style="color: #e2b8a4;">Book an appointment for our services</h3>
+                <div class="text-center">
+                    <button type="button" class="btn2 btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalLong">
+                        BOOK AN APPOINTMENT
+                    </button>
+                </div>
+            </div>
+
+            <!-- Appointment Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel" style="color: #633a27;">Booking an Appointment</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p style="font-size: 20px;">Please select which services you would like to include in your booking:</p>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                <label class="form-check-label" for="exampleCheck1">Dentistry</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck2" />
+                                <label class="form-check-label" for="exampleCheck2">Nutrition</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck3" />
+                                <label class="form-check-label" for="exampleCheck3">Primary Care</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck4" />
+                                <label class="form-check-label" for="exampleCheck4">Diagnostics</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck5" />
+                                <label class="form-check-label" for="exampleCheck5">Pharmacy</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck6" />
+                                <label class="form-check-label" for="exampleCheck6">Surgery</label>
+                            </div>
+                            <br />
+                            <p style="font-size: 20px;">Contact Information</p>
+                            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Enter your full name" />
+                            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Enter your phone number" />
+                            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Enter your furry friend's name" />
+                            <br />
+                            <form method="post">
+                                <div class="form-group">
+                                    <!-- Date input -->
+                                    <!--<label class="control-label" for="date" style="font-size: 20px; font-family: 'libre_baskervillebold';">Date</label> -->
+                                    <p style="font-size: 20px; color:#633a27">Date</p>
+                                    <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+                                </div>
+                            </form><br>
+                            <p style="font-size: 20px; color:#633a27">Time</p>
+                            <div class="input-group bootstrap-timepicker timepicker">
+                                <input id="timepicker1" type="text" class="form-control input-small">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experts -->
+            <div class="experts p-1">
+                <h3 class="">Meet our Team of Experts</h3>
+                <div class="text-center">
+                <p class="p-5 my-3" style="font-size: 20px;">
+                    At Love Animal, we’re pet people too. We understand the importance of your morning snuggles and the tail-wagging excitement when you come through the door, even if you’re only gone for five minutes. Your pets are always
+                    there for you, so we are always here for them. Meet our team of veterinary professionals who are here for you and your pet.
+                </p>
+            </div>
+            </div>
+
+            <div class="service2 p-1">
+                <!-- First Row of Experts -->
+                <div class="row justify-content-around m-1">
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Alle Jack</h4>
+                            <br />
+                            <img src="assets/expert1.png" class="card-img-top" alt="..." /><br />
+                            <br />
+                            <p class="card-text">
+                                Alle attended the University of Ottawa before graduating from the Ontario Veterinary College in 2009. You may recognize her from the years she spent behind our front desk before going off to veterinary
+                                school. She rejoined our team in 2010 after spending some time at the Ottawa Veterinary Hospital. Alle enjoys playing ringette, soccer and dodgeball, as well as spending time with her Black Lab, Owen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Sarah Nazir</h4>
+                            <br />
+                            <img src="assets/expert2.png" class="card-img-top" alt="..." /><br />
+                            <br />
+                            <p class="card-text">
+                                Sarah attended the Carleton University before graduating from the Ontario Veterinary College in 2012. Sarah enjoys spening time with her 3 cats by watching movies and going on small walks around their
+                                apartment building.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Row of Experts-->
+                <div class="row justify-content-around m-1">
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>L Beach</h4>
+                            <br />
+                            <img src="assets/expert3.png" class="card-img-top" alt="..." /><br />
+                            <br />
+                            <p class="card-text">
+                                L attended the University of Ottawa before graduating from the Ontario Veterinary College in 2009. You may recognize her from the years she spent behind our front desk before going off to veterinary school.
+                                She rejoined our team in 2010 after spending some time at the Ottawa Veterinary Hospital. Alle enjoys playing ringette, soccer and dodgeball, as well as spending time with her Black Lab, Owen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 27rem; padding: 20px; border-radius: 5px;">
+                        <div class="card-body">
+                            <h4>Michelle Herman</h4>
+                            <br />
+                            <img src="assets/expert4.png" class="card-img-top" alt="..." /><br />
+                            <br />
+                            <p class="card-text">
+                                Michelle graduated from the University of Guelph with a BSC in 1989 and a DVM in 1994. She has been practicing at Bells Corners Animal Hospital since 1995. She has three cats (Bobbie, Chester and Q.T.) who
+                                she loves to cuddle and play with. She also has a husband and two kids, so, much of her time is spent helping at school, hockey, swimming, soccer and dance activities. Her hobbies include hiking, camping,
+                                badminton, book club, playing piano, watching old movies and musicals and playing any sport with the kids.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact p-1">
+                <div class="text-center">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <p class="" style="font-size: 40px;">
+                        2194 Robertson Rd, <br />
+                        Nepean, ON K2H 9J5
+                    </p>
+                    <br />
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <p class="" style="font-size: 40px;">613.820.1641</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p style="font-size: 20px;">designed by yukii</p>
+                <br />
+                ...
+                <br />
+                <br />
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
+            </div>
+
+        <!-- here we input our javascript helper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
